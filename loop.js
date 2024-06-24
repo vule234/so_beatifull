@@ -142,3 +142,7 @@ document.onmousewheel = function (e) {
   radius += d;
   init(1);
 };
+document.addEventListener('DOMContentLoaded', function() {
+    var loopVideo = document.getElementById('myLoopVideo');
+    loopVideo.play();
+});
